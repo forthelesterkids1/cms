@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 const fs = require('fs');
 
 // Where fileName is name of the file and response is Node.js Reponse. 
-responseFile = (fileName, response) => {
+/*responseFile = (fileName, response) => {
   const filePath =  "./bea.json" // or any file format
 
   // Check if file specified by the filePath exists 
@@ -28,6 +28,7 @@ responseFile = (fileName, response) => {
     });
   }
 }
+*/
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
