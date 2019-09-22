@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-const fs = require('fs');
+//const fs = require('fs');
 
 // Where fileName is name of the file and response is Node.js Reponse. 
 /*responseFile = (fileName, response) => {
